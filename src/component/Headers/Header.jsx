@@ -7,8 +7,8 @@ function Header() {
   const handleDownload = () => {
  
     const link = document.createElement('a');
-    link.href = '/my-cv.pdf';
-    link.download = 'my-cv.pdf';
+    link.href = '/assal-cv.pdf';
+    link.download = 'assal-cv.pdf';
     link.click();
   }
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ function Header() {
      
       <div className='md:hidden'>
         <button onClick={toggleMenu}>
-          {isMenuOpen ? <FaTimes className='text-1xl  text-red-500' /> : <FaBars className='text-1xl hover:text-[#dad6d6] text-[#f932d8e1] ' />}
+          {isMenuOpen ? <FaTimes className='text-2xl  text-red-500' /> : <FaBars className='text-2xl hover:text-[#dad6d6] text-[#f932d8e1] ' />}
         </button>
       </div>
 

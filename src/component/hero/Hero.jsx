@@ -35,7 +35,7 @@ const Hero = () => {
           applications.
         </p>
 
-        <div className="flex md:space-x-4 space-x-2 md:text-[28px] text-[14px] ">
+        <div className="flex md:space-x-4 space-x-2 md:text-[28px] text-[24px] ">
           <a
             href="https://github.com/Mohammed-Assal"
             target="_blank"

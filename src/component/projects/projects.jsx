@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       link: '/projects',
       link2: 'https://mern-blog-9jhi.onrender.com/',
       technologies: ['MERN Stack', "redux.js"],
-      image1: '/blog/homeblog.png',
+      image1: '/imgportfolio.jpg',
       image2: '/blog/homeblog.png',
     },
     {
@@ -18,8 +18,8 @@ const ProjectsSection = () => {
       link: '/projects',
       link2: '/',
       technologies: ['React', 'Tailwind CSS'],
-      image1: '/hero.png',
-      image2: '/imgportfolio.jpg',
+      image2: '/hero.png',
+      image1: '/imgportfolio.jpg',
     },
     
   ];
